@@ -6,7 +6,7 @@ while True:
 	token = input("\nEnter the telegram bot token : ")
 	chat_id = input("\nEnter chat id : ")
 	msg = input("\nEnter the message  : ")
-	code = str("sudo curl -X POST 'https://api.telegram.org/bot"+ token+"/sendMessage' -d 'chat_id="+chat_id+"&text="+msg+"'")
+	code = str("curl -X POST 'https://api.telegram.org/bot"+ token+"/sendMessage' -d 'chat_id="+chat_id+"&text="+msg+"'")
 	os.system(code)
 
 	end = int(input("\n\n<----------------------------------------------------------------------------->\n"
