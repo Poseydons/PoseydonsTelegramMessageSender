@@ -1,5 +1,5 @@
 clear
-sudo apt-get install lolcat
+apt-get install lolcat
 clear
 figlet Poseydons Telegram Message Sender |lolcat -as 500
 echo "\n\n=====================================>$(tput setaf 3) Poseydons says : 'Karabagh is $(tput setaf 4)AZER$(tput setaf 1)BAIJ$(tput setaf 2)AN!!'"
